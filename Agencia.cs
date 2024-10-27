@@ -1,11 +1,11 @@
 // Classe Agencia
 // Representa uma agência de viagens, gerenciando destinos, clientes e pacotes turísticos
-public class Agencia
+public class Agencia 
 {
     // Listas que armazenam destinos, clientes e pacotes cadastrados na agência
-    public List<Destino> Destinos{ get; set; } = new List<Destino>();
-    public List<Cliente> Clientes { get; set; } = new List<Cliente>();
-    public List<PacoteTuristico> Pacotes { get; set; } = new List<PacoteTuristico>();
+    private List<Destino> Destinos{ get; set; } = new List<Destino>();
+    private List<Cliente> Clientes { get; set; } = new List<Cliente>();
+    private List<PacoteTuristico> Pacotes { get; set; } = new List<PacoteTuristico>();
 
 
     // Método para cadastrar um novo destino na lista de destinos
